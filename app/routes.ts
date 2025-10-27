@@ -48,4 +48,7 @@ export default [
     // 필요 시: route("forgot-password", "./auth/forgot-password.tsx"),
 
   ]),
+  
+  // 404
+  route("*", "./catch-all.tsx"),
 ] satisfies RouteConfig;
